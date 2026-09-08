@@ -129,3 +129,29 @@ Event: Sysmon Event ID 1
 A controlled cmd.exe test generated a Sysmon process-creation event and triggered the Splunk detection. The activity was identified as authorized lab testing rather than malicious behavior.
 
             
+## Screenshots
+
+01. SOC-dashboard
+   
+<img width="940" height="381" alt="Screenshot 2026-09-07 213831" src="https://github.com/user-attachments/assets/6816c5e7-f4ec-43f5-9b07-a711bb2bc75c" />
+
+The completed Windows SOC Overview dashboard   
+
+02. Alert-investigation
+
+<img width="863" height="415" alt="Screenshot 2026-09-07 183052" src="https://github.com/user-attachments/assets/092fcc81-e6cd-43ad-b1a0-799e05d160e2" />
+
+Investigation of SOC-001 — Command Prompt Activity
+
+03. Incident Report
+
+<img width="253" height="350" alt="Screenshot 2026-09-07 185513" src="https://github.com/user-attachments/assets/342efed1-0422-4ce9-a676-b877536c58f6" />
+
+Documented investigation/incident report   
+
+04. Network Investigation
+
+<img width="740" height="273" alt="Screenshot 2026-09-07 211059" src="https://github.com/user-attachments/assets/c1112589-0a60-4f49-b9b3-81cad102cfb0" />
+<img width="887" height="378" alt="Screenshot 2026-09-07 211531" src="https://github.com/user-attachments/assets/dc20f0c9-2720-4025-948e-b4a404eb5889" />
+
+SOC-002 Microsoft Defender network investigation   
